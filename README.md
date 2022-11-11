@@ -1,12 +1,8 @@
-# Osbourne
+# CRUD
 
 ## Sobre o projeto
-O projeto Osbourne foi criado por uma solicitação de um trabalho complementar da universidade. O Osbourne é
-feito 100% com a linguagem Python com persistência de dados, armazenando os dados em arquivos .json.
-
-Feito por _André Akim, Diogo Sobezak, Eduardo Mussi, Gabriel Mocellin e Victor Portelinha_;
-
-Foi utilizado o **CRUD (Create, Read, Update, Delete)** para desenvolver o projeto.
+Esse *CRUD* foi realizado por uma solicitação de um trabalho complementar da universidade. Esse CRUD é
+feito 100% com a linguagem Python e contém persistência de dados, armazenando os dados em arquivos .json.
 
 # Estado Atual do Projeto
 [x] Conteúdo
