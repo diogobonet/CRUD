@@ -15,7 +15,6 @@ pedidos = loadDb(pedidos, file_listanotas)
 
 
 def procurarCliente(dicClientes):
-
     cpf = input('Digite o cpf do cliente:')
     if dicClientes == {}:
         print('Processando ...')
