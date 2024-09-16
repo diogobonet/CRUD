@@ -1,5 +1,5 @@
 import time
-from src import menu
+import menu
 from crudCustomer import saveDb, loadDb
 from crudCustomer import validarInt, verifyName
 fileProducts = 'database/productsData.json'

@@ -1,4 +1,4 @@
-from src import menu, verifycpf
+import menu, verifycpf
 import json
 
 file = 'database/customersData.json'
