@@ -1,10 +1,10 @@
 import time
-from clientes import dicClientes, saveDb, loadDb, print_cor, CorAmarelo, CorVerm, CorVoltar
-from cadastroprodutos import dicProdutos
+from crudCustomer import dicClientes, saveDb, loadDb, print_cor, CorAmarelo, CorVerm, CorVoltar
+from crudProduct import dicProdutos
 
 
-fileProducts = 'cadastrosProdutos.json'
-file_listanotas = 'listaDeNotas.json'
+fileProducts = 'database/productsData.json'
+file_listanotas = 'database/notes.json'
 
 
 pedidos = []

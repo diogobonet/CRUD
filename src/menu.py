@@ -1,7 +1,7 @@
-import cadastroprodutos
-import clientes
-import loja
-from clientes import CorVerde, print_cor
+import crudProduct
+import crudCustomer
+import store
+from crudCustomer import CorVerde, print_cor
 
 
 def LerInt(msg):
@@ -27,11 +27,11 @@ def menuPrincipal():
     while True:
         op = LerInt('\033[0;32m-> ')
         if op == 1:
-            clientes.menuClientes()
+            crudCustomer.menuClientes()
         if op == 2:
-            cadastroprodutos.menuProd()
+            crudProduct.menuProd()
         if op == 3:
-            loja.menuLoja()
+            store.menuLoja()
         if op == 4:
             break
         if op < 1 or op > 4:

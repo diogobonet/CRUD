@@ -1,8 +1,7 @@
-import verifycpf
-import menu
+import menu, verifycpf
 import json
 
-file = 'cadastrosClientes.json'
+file = 'database/customersData.json'
 
 def loadDb(variavel, filename):
     with open(filename, 'r') as r:
