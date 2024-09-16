@@ -1,8 +1,8 @@
 import time
-import menu
-from clientes import saveDb, loadDb, print_cor, CorAmarelo, CorAzul, CorVerde, CorVerm, CorVoltar
-from clientes import validarInt, verifyName
-fileProducts = 'cadastrosProdutos.json'
+from src import menu
+from crudCustomer import saveDb, loadDb
+from crudCustomer import validarInt, verifyName
+fileProducts = 'database/productsData.json'
 
 dicProdutos = {}
 dicProdutos = loadDb(dicProdutos, fileProducts)

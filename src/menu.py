@@ -1,7 +1,7 @@
-import cadastroprodutos
-import clientes
-import loja
-from clientes import CorVerde, print_cor
+import crudProduct
+import crudCustomer
+import store
+from crudCustomer import CorVerde, print_cor
 
 
 def LerInt(msg):
