@@ -35,7 +35,8 @@ python main.py
 
 ## Contributions
 
-Contributions are welcome! Feel free to open issues or submit pull requests.
+[@diogobonet](https://github.com/diogobonet)
+[@gabrielmocellin](https://github.com/gabrielmocellin)
 
 ## License
 
